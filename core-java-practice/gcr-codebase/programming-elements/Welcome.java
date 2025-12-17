@@ -5,4 +5,3 @@ public class Welcome{
         System.out.println(m);
     }
 }
-
