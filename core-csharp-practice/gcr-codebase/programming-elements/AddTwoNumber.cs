@@ -1,7 +1,7 @@
 using System;
 class AddTwoNumber
 {
-  static void Main(string[] args){
+  static void Main(string [] args){
         Console.Write("Enter 1st number: ");
         int s = int.Parse(Console.ReadLine());
         Console.Write("Enter 2nd number: ");
