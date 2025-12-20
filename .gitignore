@@ -1,14 +1,1 @@
-# Java
-*.class
-
-# Eclipse
-.project
-.classpath
-.settings/
-
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
+*.exe
