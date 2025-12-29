@@ -1,13 +1,14 @@
-using System;
+using System;   // Console, Random use karne ke liye
 
-class Program
+class SnakeLadder
 {
     static void Main()
     {
-        Console.WriteLine("🐍 SNAKE & LADDER GAME 🪜\n");
+        Console.WriteLine("Snake & Ladder Game\n"); // game title
 
-        // ---------- PLAYER COUNT ----------
         int playerCount;
+
+        // valid players(2 to 4) lene ke liye
         do
         {
             Console.Write("Enter number of players(2 to 4): ");
@@ -15,88 +16,96 @@ class Program
         }
         while(playerCount < 2 || playerCount > 4);
 
-        // ---------- PLAYER DATA ----------
+        // players ke name store karne ke liye
         string[] players = new string[playerCount];
+
+        // players ki position store karne ke liye
         int[] positions = new int[playerCount];
 
+        // players ka data lene ke liye loop
         for(int i = 0; i < playerCount; i++)
         {
-            Console.Write($"Enter name of Player {i + 1}: ");
+            Console.Write("Enter player name: ");
             players[i] = Console.ReadLine();
-            positions[i] = 0;
+            positions[i] = 0; // starting position
         }
 
-        // ---------- SNAKES(start → end) ----------
+        // snakes ke start aur end points
         int[] snakeStart = { 99, 70, 52, 25 };
         int[] snakeEnd   = { 54, 55, 42, 2 };
 
-        // ---------- LADDERS(start → end) ----------
+        // ladders ke start aur end points
         int[] ladderStart = { 6, 11, 46, 60 };
         int[] ladderEnd   = { 25, 40, 90, 85 };
 
-        bool gameOver = false;
+        bool gameOver = false; // game chal rahi hai ya nahi
 
-        // ---------- GAME LOOP ----------
+        // game tab tak chalegi jab tak koi jeete nahi
         while(!gameOver)
         {
+            // har player ka turn
             for(int i = 0; i < playerCount; i++)
             {
-                Console.WriteLine($"\n🎯 {players[i]}'s Turn(Press Enter)");
-                Console.ReadLine();
+                Console.WriteLine("\n" + players[i] + "'s turn");
+                Console.ReadLine(); // enter press karne ke liye
 
-                int dice = RollDice();
+                int dice = RollDice(); // dice roll
                 int oldPos = positions[i];
 
+                // dice ke according move
                 int newPos = MovePlayer(oldPos, dice);
-//          check snake or ladder
+
                 string message;
+
+                // snake ya ladder check
                 newPos = ApplySnakeOrLadder(
                             newPos,
                             snakeStart, snakeEnd,
                             ladderStart, ladderEnd,
                             out message);
 
-                positions[i] = newPos;
+                positions[i] = newPos; // position update
 
-                Console.WriteLine($"Dice Value : {dice}");
-                Console.WriteLine($"Position   : {oldPos} → {newPos}");
+                Console.WriteLine("Dice : " + dice);
+                Console.WriteLine("Position : " + oldPos + " -> " + newPos);
 
                 if(message != "")
                 {
-                    Console.WriteLine(message);
+                    Console.WriteLine(message); // snake/ladder message
                 }
-//         check win
+
+                // win condition check
                 if(CheckWin(newPos))
                 {
-                    Console.WriteLine($"\n🏆 {players[i]} WON THE GAME!");
-                    gameOver = true;
-                    break;
+                    Console.WriteLine(players[i] + " WON THE GAME");
+                    gameOver = true; // game end
+                    break; // loop stop
                 }
             }
         }
 
-        Console.WriteLine("\nGame Over");
+        Console.WriteLine("Game Over");
     }
 
-    // ---------- ROLL DICE ----------
+    // dice ka random number generate karne ke liye
     static int RollDice()
     {
-        Random random = new Random();
-        return random.Next(1, 7);
+        Random r = new Random();
+        return r.Next(1, 7); // 1 to 6
     }
 
-    // ---------- MOVE PLAYER ----------
+    // player ko move karne ke liye
     static int MovePlayer(int currentPosition, int diceValue)
     {
         int nextPosition = currentPosition + diceValue;
 
-        // ternary operator
+        // agar 100 se aage chala gaya to wahi rukega
         nextPosition = nextPosition > 100 ? currentPosition : nextPosition;
 
         return nextPosition;
     }
 
-    // ---------- SNAKE OR LADDER USING ARRAYS ----------
+    // snake ya ladder check karne ke liye
     static int ApplySnakeOrLadder(
         int position,
         int[] snakeStart, int[] snakeEnd,
@@ -105,30 +114,30 @@ class Program
     {
         message = "";
 
-        // check snakes
+        // snake check
         for(int i = 0; i < snakeStart.Length; i++)
         {
             if(position == snakeStart[i])
             {
-                message = "🐍 Snake bite!";
+                message = "Snake bite";
                 return snakeEnd[i];
             }
         }
 
-        // check ladders
+        // ladder check
         for(int i = 0; i < ladderStart.Length; i++)
         {
             if(position == ladderStart[i])
             {
-                message = "🪜 Ladder climbed!";
+                message = "Ladder climb";
                 return ladderEnd[i];
             }
         }
 
-        return position;
+        return position; // no snake no ladder
     }
 
-    // ---------- CHECK WIN ----------
+    // jeetne ki condition check
     static bool CheckWin(int position)
     {
         return position == 100;
