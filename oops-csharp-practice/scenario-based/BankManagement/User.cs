@@ -32,7 +32,7 @@ namespace BankSystem
             Console.WriteLine("User Id  : " + UserId);
             Console.WriteLine("Name     : " + Name);
             Console.WriteLine("Role     : " + Role);
-            Console.WriteLine("Account  : " + (HasAccount ? AccountNo : "Not Created"));
+            Console.WriteLine("Account  : " +(HasAccount ? AccountNo : "Not Created"));
         }
     }
 }

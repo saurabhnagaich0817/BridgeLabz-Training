@@ -10,7 +10,7 @@ namespace BankSystem
 
         public void CreateAccount(string accNo, double balance, double minBalance)
         {
-            if (FindAccount(accNo) != -1)
+            if(FindAccount(accNo) != -1)
             {
                 Console.WriteLine("Account already exists");
                 return;
@@ -28,7 +28,7 @@ namespace BankSystem
         public void ShowAccount(string accNo)
         {
             int i = FindAccount(accNo);
-            if (i == -1)
+            if(i == -1)
             {
                 Console.WriteLine("Account not found");
                 return;
@@ -43,7 +43,7 @@ namespace BankSystem
         public void Deposit(string accNo, double amt)
         {
             int i = FindAccount(accNo);
-            if (i == -1)
+            if(i == -1)
             {
                 Console.WriteLine("Account not found");
                 return;
@@ -59,7 +59,7 @@ namespace BankSystem
         public void Withdraw(string accNo, double amt)
         {
             int i = FindAccount(accNo);
-            if (i == -1)
+            if(i == -1)
             {
                 Console.WriteLine("Account not found");
                 return;
@@ -68,7 +68,7 @@ namespace BankSystem
             double bal = Convert.ToDouble(accounts[i, 1]);
             double min = Convert.ToDouble(accounts[i, 2]);
 
-            if (bal - amt < min)
+            if(bal - amt < min)
             {
                 Console.WriteLine("Minimum balance limit reached");
                 return;
@@ -81,9 +81,9 @@ namespace BankSystem
 
         private int FindAccount(string accNo)
         {
-            for (int i = 0; i < count; i++)
+            for(int i = 0; i < count; i++)
             {
-                if (accounts[i, 0] == accNo)
+                if(accounts[i, 0] == accNo)
                     return i;
             }
             return -1;

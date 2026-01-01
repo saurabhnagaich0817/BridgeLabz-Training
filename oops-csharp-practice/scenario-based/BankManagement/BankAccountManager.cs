@@ -15,7 +15,7 @@ class BankManager
         Console.WriteLine("2. Customer Login");
         int choice = Convert.ToInt32(Console.ReadLine());
 
-        if (choice == 1)
+        if(choice == 1)
         {
             currentUser = admin;
             AdminMenu();
@@ -39,7 +39,7 @@ class BankManager
 
             ch = Convert.ToInt32(Console.ReadLine());
 
-            switch (ch)
+            switch(ch)
             {
                 case 1:
                     Console.Write("Account No: ");
@@ -57,7 +57,7 @@ class BankManager
                     bank.ShowAccount(Console.ReadLine());
                     break;
             }
-        } while (ch != 3);
+        } while(ch != 3);
     }
 
     static void CustomerMenu()
@@ -77,7 +77,7 @@ class BankManager
 
             ch = Convert.ToInt32(Console.ReadLine());
 
-            switch (ch)
+            switch(ch)
             {
                 case 1:
                     currentUser.ShowUser();
@@ -99,6 +99,6 @@ class BankManager
                         Convert.ToDouble(Console.ReadLine()));
                     break;
             }
-        } while (ch != 5);
+        } while(ch != 5);
     }
 }
