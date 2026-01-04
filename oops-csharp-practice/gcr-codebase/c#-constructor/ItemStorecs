@@ -1,0 +1,49 @@
+using System;
+
+class ItemStore
+{
+    // Instance data
+    private string itemName;
+    private double itemCost;
+
+    // Static data
+    private static int itemCount = 0;
+
+    // Constructor
+    public ItemStore(string name, double cost)
+    {
+        itemName = name;
+        itemCost = cost;
+        itemCount++;
+    }
+
+    // Instance method
+    public void ShowItem()
+    {
+        Console.WriteLine("Item Name : " + itemName);
+        Console.WriteLine("Item Cost : ₹" + itemCost);
+    }
+
+    // Static method
+    public static void ShowItemCount()
+    {
+        Console.WriteLine("Total Items Available: " + itemCount);
+    }
+}
+
+class InventoryApp
+{
+    static void Main()
+    {
+        ItemStore item1 = new ItemStore("Laptop", 55000);
+        ItemStore item2 = new ItemStore("Mouse", 1200);
+
+        item1.ShowItem();
+        Console.WriteLine();
+
+        item2.ShowItem();
+        Console.WriteLine();
+
+        ItemStore.ShowItemCount();
+    }
+}
