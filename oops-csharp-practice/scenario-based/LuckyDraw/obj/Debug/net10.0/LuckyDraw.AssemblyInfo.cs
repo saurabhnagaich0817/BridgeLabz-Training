@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LuckyDraw")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f941e7549a76ef15b38101b422e5390128c21cfd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9629f749f00abe90928d64c4f7a13c3c59ae51d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("LuckyDraw")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LuckyDraw")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
