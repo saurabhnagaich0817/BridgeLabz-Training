@@ -104,3 +104,19 @@ Welcome to my BridgeLabz training repository.
 - **2 January 2026** — Scenario-Based Project (LuckyDraw)
   - Completed the Lucky Draw application in `LuckyDraw` folder:
     - Implemented event logic in `EventApplication.cs`, user input handling in `UserInputReader.cs`, and prize checking in `PrizeChecker.cs`. Developed features for participant registration, random winner selection, and prize distribution. Practiced modular code structure, randomization, and interactive user experience for event management.
+
+- **4 January 2026** — OOPs Assignments: Class, Object, Inheritance (completed)
+  - Completed and reviewed core OOPs assignments in `gcr-codebase`:
+    - Practiced class and object creation, encapsulation, and method usage in files like `AreaOfCircle.cs`, `Employee.cs`, and `HandleBook.cs`.
+    - Explored inheritance concepts (single, multilevel, hierarchical, hybrid) in files such as `AnimalHeirarcy.cs`, `EmployeeManagement.cs`, `vehicle.cs`, and subfolders for each inheritance type.
+    - Implemented real-world scenarios (bank accounts, school systems, restaurant, library management, etc.) to understand how inheritance and object relationships work in C#.
+    - **Advantages:** Improved code reusability, modularity, and maintainability by leveraging inheritance and object-oriented design. Gained hands-on experience in structuring scalable C# applications.
+    - **How:** Designed base and derived classes, used constructors, and applied OOP principles to solve assignment problems and model real-world entities.
+
+- **5 January 2026** — Scenario-Based Project: Hospital Management (completed)
+  - Built a comprehensive Hospital Management System in `scenario-based/HospitalManagement`:
+    - Developed classes for `Doctor`, `Patient` (with `InPatient` and `OutPatient`), and `Bill`, implementing interfaces like `IPayable` for payment logic.
+    - Used object composition to link doctors and patients, and inheritance to distinguish between patient types.
+    - Implemented billing, payment, and receipt generation, with clear separation of concerns and modular methods.
+    - **Advantages:** Demonstrated advanced OOP concepts (inheritance, interfaces, composition, abstraction) in a real-world healthcare scenario. Enhanced ability to design extensible, maintainable systems with clear roles and responsibilities.
+    - **How:** Broke down the hospital workflow into classes and interfaces, used polymorphism for billing, and ensured each class had a single responsibility. Focused on user-friendly output and robust logic for patient and billing management.
