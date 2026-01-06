@@ -120,3 +120,26 @@ Welcome to my BridgeLabz training repository.
     - Implemented billing, payment, and receipt generation, with clear separation of concerns and modular methods.
     - **Advantages:** Demonstrated advanced OOP concepts (inheritance, interfaces, composition, abstraction) in a real-world healthcare scenario. Enhanced ability to design extensible, maintainable systems with clear roles and responsibilities.
     - **How:** Broke down the hospital workflow into classes and interfaces, used polymorphism for billing, and ensured each class had a single responsibility. Focused on user-friendly output and robust logic for patient and billing management.
+
+- **6 January 2026** — Scenario-Based Project: BirdSentury (completed)
+  - Developed a bird sanctuary simulation in `scenario-based/BirdSentury`:
+    - Implemented classes for different bird species (`Duck.cs`, `Eagle.cs`, `Penguin.cs`, `Seagull.cs`, `Sparrow.cs`) and interfaces for behaviors (`Iflyable.cs`, `Iswimmable.cs`).
+    - Used inheritance and interfaces to model flying and swimming abilities, demonstrating polymorphism and abstraction.
+    - Created a main program to instantiate birds, invoke behaviors, and display species-specific actions.
+    - **Advantages:** Practiced advanced OOP concepts (inheritance, interfaces, polymorphism) in a real-world ecosystem scenario. Improved ability to design extensible, maintainable code for complex object hierarchies.
+    - **How:** Broke down bird behaviors into interfaces, used base and derived classes for species, and wrote modular, reusable code for sanctuary management.
+
+- **6 January 2026** — Scenario-Based Project: VehicleRent (completed)
+  - Built a vehicle rental system in `scenario-based/VehicleRent`:
+    - Developed classes for different vehicle types (`Car.cs`, `Bike.cs`, `Truck.cs`, `Transport.cs`) and an interface (`IRentable.cs`) for rental operations.
+    - Implemented billing logic (`Bill.cs`) and a main rental application (`RentalApp.cs`) to manage rentals, calculate costs, and handle user input.
+    - Practiced encapsulation, abstraction, and interface-driven design for real-world rental workflows.
+    - **Advantages:** Enhanced skills in modeling business processes, managing collections of objects, and separating concerns for billing, vehicle management, and user interaction.
+    - **How:** Used interfaces for rental contracts, base/derived classes for vehicle types, and modular methods for rental and billing logic.
+
+- **6 January 2026** — Scenario-Based Project: Customer Service (completed)
+  - Developed and tested a Customer Service application in `scenario-based/CustomerService`:
+    - **CallLog.cs**: Implemented a `CallLog` class to encapsulate call details (phone number, message, timestamp) with properties and a display method for formatted output.
+    - Built supporting classes (`CallLogManager.cs`, `Program.cs`) to manage call records, add/search/display logs, and simulate real-world customer service workflows.
+    - Practiced OOP principles: encapsulation (private fields, public properties), modular design, and separation of concerns.
+    - **Advantages:** Improved ability to model real-world service scenarios, manage collections of objects, and provide clear, maintainable code for business logic and reporting.
