@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\bin\Debug\net10.0\BirdSentury.exe
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\bin\Debug\net10.0\BirdSentury.deps.json
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\bin\Debug\net10.0\BirdSentury.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\bin\Debug\net10.0\BirdSentury.dll
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\bin\Debug\net10.0\BirdSentury.pdb
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.sourcelink.json
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.dll
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\refint\BirdSentury.dll
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.pdb
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\BirdSentury.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\BirdSentury\obj\Debug\net10.0\ref\BirdSentury.dll
