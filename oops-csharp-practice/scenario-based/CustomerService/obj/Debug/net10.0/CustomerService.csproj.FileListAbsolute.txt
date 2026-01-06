@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\bin\Debug\net10.0\CustomerService.exe
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\bin\Debug\net10.0\CustomerService.deps.json
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\bin\Debug\net10.0\CustomerService.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\bin\Debug\net10.0\CustomerService.dll
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\bin\Debug\net10.0\CustomerService.pdb
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.sourcelink.json
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.dll
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\refint\CustomerService.dll
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.pdb
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\CustomerService.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\oops-csharp-practice\scenario-based\CustomerService\obj\Debug\net10.0\ref\CustomerService.dll
