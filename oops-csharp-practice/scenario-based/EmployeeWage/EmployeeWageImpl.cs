@@ -1,82 +1,90 @@
 using System;
 
-class EmployeeWageImpl : IEmployeeWage
+namespace EmployeeWage
 {
-    private const int WAGE_PER_HOUR = 20;
-    private const int FULL_DAY_HOUR = 8;
-    private const int PART_TIME_HOUR = 8;
-    private const int WORKING_DAYS = 20;
-    private const int MAX_HOURS = 100;
-    public void CheckAttendance()
+    class EmployeeWageImpl : IEmployeeWage
     {
-        int isPresent = new Random().Next(0, 2);
-        if (isPresent == 1)
-            Console.WriteLine("Employee is Present");
-        else
-            Console.WriteLine("Employee is Absent");
-    }
-    public void CalculateDailyWage()
-    {
-        int isPresent = new Random().Next(0, 2);
+        private const int FULL_DAY_HOURS = 8;
+        private const int WORKING_DAYS = 20;
 
-        if (isPresent == 1)
-        {
-            int dailyWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
-            Console.WriteLine("Daily Employee Wage = " + dailyWage);
-        }
-        else
-        {
-            Console.WriteLine("Daily Employee Wage = 0");
-        }
-    }
-    public void PartTimeWage()
-    {
-        int empType = new Random().Next(0, 2);
+        private Employee[] employees = new Employee[100];
+        private int count = 0;
 
-        if (empType == 1)
+        public void AddEmployee()
         {
-            int wage = WAGE_PER_HOUR * PART_TIME_HOUR;
-            Console.WriteLine("Part Time Employee Wage = " + wage);
-        }
-        else
-        {
-            Console.WriteLine("Employee is Full Time");
-        }
-    }
-    public int GetWorkingHours()
-    {
-        int empType = new Random().Next(0, 3);
+            if (count >= 10)
+            {
+                Console.WriteLine("Employee limit reached");
+                return;
+            }
 
-        switch (empType)
-        {
-            case 1:
-                return FULL_DAY_HOUR;
-            case 2:
-                return PART_TIME_HOUR;
-            default:
-                return 0;
-        }
-    }
-    public void MonthlyWage()
-    {
-        int monthlyWage = WORKING_DAYS * FULL_DAY_HOUR * WAGE_PER_HOUR;
-        Console.WriteLine("Monthly Employee Wage = " + monthlyWage);
-    }
-    public void WageTillCondition()
-    {
-        int totalHours = 0;
-        int totalDays = 0;
+            Console.Write("Enter Employee Id: ");
+            int id = Convert.ToInt32(Console.ReadLine());
 
-        while (totalHours < MAX_HOURS && totalDays < WORKING_DAYS)
-        {
-            totalDays++;
-            int hours = GetWorkingHours();
-            totalHours += hours;
+            Console.Write("Enter Employee Name: ");
+            string name = Console.ReadLine() ?? "";
+
+            Console.Write("Enter Wage Per Hour: ");
+            int wage = Convert.ToInt32(Console.ReadLine());
+
+            employees[count] = new Employee(id, name, wage);
+            count++;
+
+            Console.WriteLine("Employee Added Successfully");
         }
 
-        int totalWage = totalHours * WAGE_PER_HOUR;
-        Console.WriteLine("Total Days Worked = " + totalDays);
-        Console.WriteLine("Total Hours Worked = " + totalHours);
-        Console.WriteLine("Total Wage = " + totalWage);
+        public void CheckAttendance()
+        {
+            int isPresent = new Random().Next(0, 2);
+            Console.WriteLine(isPresent == 1 ? "Employee is Present" : "Employee is Absent");
+        }
+
+        public void DailyWage()
+        {
+            Employee? emp = GetEmployeeById();
+            if (emp == null) return;
+
+            int wage = emp.GetWagePerHour() * FULL_DAY_HOURS;
+            Console.WriteLine("Daily Wage = " + wage);
+        }
+
+        public void PartTimeWage()
+        {
+            Employee? emp = GetEmployeeById();
+            if (emp == null) return;
+
+            Console.Write("Enter Working Hours: ");
+            int hours = Convert.ToInt32(Console.ReadLine());
+
+            int wage = emp.GetWagePerHour() * hours;
+            Console.WriteLine("Part Time Wage = " + wage);
+        }
+
+        public void MonthlyWage()
+        {
+            Employee? emp = GetEmployeeById();
+            if (emp == null) return;
+
+            Console.Write("Enter Hours Per Day: ");
+            int hours = Convert.ToInt32(Console.ReadLine());
+
+            int wage = emp.GetWagePerHour() * hours * WORKING_DAYS;
+            Console.WriteLine("Monthly Wage = " + wage);
+        }
+
+        private Employee? GetEmployeeById()
+        {
+            Console.Write("Enter Employee Id: ");
+            int id = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < count; i++)
+            {
+                if (employees[i].GetId() == id)
+                    return employees[i];
+            }
+
+            Console.WriteLine("Employee Not Found");
+            return null;
+        }
     }
 }

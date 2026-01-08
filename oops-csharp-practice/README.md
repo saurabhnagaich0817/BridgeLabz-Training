@@ -143,3 +143,16 @@ Welcome to my BridgeLabz training repository.
     - Built supporting classes (`CallLogManager.cs`, `Program.cs`) to manage call records, add/search/display logs, and simulate real-world customer service workflows.
     - Practiced OOP principles: encapsulation (private fields, public properties), modular design, and separation of concerns.
     - **Advantages:** Improved ability to model real-world service scenarios, manage collections of objects, and provide clear, maintainable code for business logic and reporting.
+
+
+- **7 January 2026** — Scenario-Based Project: Employee Wage (completed)
+  - Developed and tested an Employee Wage management system in `scenario-based/EmployeeWage`:
+    - Implemented classes (`EmployeeMain.cs`, `EmployeeMenu.cs`, `EmployeeWageImpl.cs`, `IEmployeeWage.cs`, `Program.cs`) to manage employee wage calculations, menu-driven user interaction, and wage logic abstraction.
+    - Practiced interface-driven design, modular code structure, and robust input validation for payroll management.
+    - **Advantages:** Improved ability to model payroll systems, separate business logic, and provide clear, maintainable code for wage calculation and reporting.
+
+- **8 January 2026** — Scenario-Based Project: Home Automation (completed)
+  - Built a Home Automation system in `scenario-based/HomeAutomation`:
+    - Developed classes (`Device.cs`, `HomeAutomationService.cs`, `HomeautomationMain.cs`, `HomeMenu.cs`, `IDeviceController.cs`) to manage smart devices, automate home operations, and provide interactive user control.
+    - Practiced interface implementation, device abstraction, and modular service design for real-world automation workflows.
+    - **Advantages:** Enhanced skills in designing extensible automation systems, managing device collections, and structuring code for user-driven smart home scenarios.
