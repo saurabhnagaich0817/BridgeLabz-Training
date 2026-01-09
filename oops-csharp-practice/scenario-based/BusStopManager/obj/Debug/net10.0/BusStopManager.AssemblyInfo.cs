@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BusStopManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61fc1015f3c48c0517967134fb6734d02a335b1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c3a75cbcdbeddd4dc233623d08bed9c4a4973a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BusStopManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BusStopManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
