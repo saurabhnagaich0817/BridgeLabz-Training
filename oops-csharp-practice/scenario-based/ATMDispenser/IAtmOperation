@@ -1,0 +1,8 @@
+using System;
+
+public interface IAtmOperations
+{
+    void SetupCurrency();
+    void WithdrawCash(int amount);
+    void DisableFiveHundred();
+}
