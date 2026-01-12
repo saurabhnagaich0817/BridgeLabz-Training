@@ -215,6 +215,15 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
 
 ---
 
+### 12 January 2026 — Scenario-Based Projects: Furniture Manufacturing, Loan Approval, Metal Factory Pipeline (completed)
+- Completed and tested three major scenario-based C# projects:
+  - **FurnitureManufacturing**: Developed a modular system for managing wood inventory, rod cutting, and furniture production. Implemented interfaces (`IWoodService.cs`), service logic (`WoodServiceImpl.cs`), and user interaction (`WoodMenu.cs`, `WoodMain.cs`). Practiced linked list management (`UniversalLinkedList.cs`) for dynamic inventory and order tracking. Focused on extensible design and real-world manufacturing workflows.
+  - **LoanApproval**: Built a loan approval system with classes for different loan types (`AutoLoan.cs`, `HomeLoan.cs`), applicant management (`Applicant.cs`), and approval logic (`LoanUtilityImpl.cs`). Used interfaces (`IApprovable.cs`) and menu-driven navigation (`LoanMenu.cs`, `LoanMain.cs`) to simulate real-world loan processing and decision-making. Practiced abstraction, polymorphism, and robust input validation.
+  - **MetalFactoryPipeLine**: Created a pipeline management system for metal factory operations. Implemented pipe cutting logic (`PipeUtilityImpl.cs`), node-based pipeline structure (`PipeNode.cs`), and user interface (`PipeMenu.cs`, `PipeMain.cs`). Used interfaces (`IPipeCutting.cs`) for modular design and scenario simulation. Focused on efficient resource allocation and process automation.
+  - **Advantages:** Strengthened skills in modular OOP design, interface-driven development, linked list and node management, and building scalable, real-world scenario applications in C#.
+
+---
+
 ## Skills & Best Practices
 - Modular, object-oriented code design
 - Use of interfaces, inheritance, and abstraction
@@ -224,5 +233,3 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
 - Data structure and algorithm implementation for scalable, maintainable solutions
 
 ---
-
-Thank you for reviewing — progress is tracked daily. This README is maintained to company standards for clarity, completeness, and professionalism. Feedback and suggestions are welcome.
