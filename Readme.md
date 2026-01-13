@@ -77,7 +77,7 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
 ### 26 December 2025 — String Handling in C# (completed)
 - Focused on string manipulation and exception handling in `core-csharp-practice/c#-String` and `core-csharp-practice/Extra-c#String`:
   - In `c#-String`, explored string methods and exception scenarios: handled argument range errors (`ArgumentRange.cs`), array exceptions (`ArrayException.cs`), character extraction without char arrays (`CharacterWithoutChararray.cs`), string comparison (`Compare.cs`), format and index exceptions, case conversion (`LowerCase.cs`, `UpperCase.cs`), substring extraction, word splitting, and null reference handling.
-  - In `Extra-c#String`, solved practical string problems: checked for anagrams (`Anagram.cs`), counted vowels/consonants (`CountVC.cs`), found lexicographical order (`LexoGraphical.cs`), longest word (`LongestWord.cs`), most frequent character (`MostFreqChar.cs`), palindrome check (`Pallindrome.cs`), removed duplicates (`RemoveDuplicate.cs`), removed specific characters (`RemoveSpecific.cs`), replaced words (`ReplaceWord.cs`), reversed strings (`Rev.cs`), counted substrings (`SubstringCount.cs`), and toggled case (`Toggle.cs`).
+  - In `Extra-c#String`, solved practical string problems: checked for anagrams (`Anagram.cs`), counted vowels/consonants (`CountVC.cs`), found lexicographical order (`LexoGraphical.cs`), longest word (`LongestWord.cs`), most frequent character (`MostFreqChar.cs`), palindrome check (`Pallindrome.cs`), removed duplicates (`RemoveDuplicate.cs`), removed specific characters (`RemoveSpecific.cs`), replaced words (`ReplaceWord.cs`), reversed strings (`Rev.cs`), counted sub strings (`SubstringCount.cs`), and toggled case (`Toggle.cs`).
   - Practiced robust string handling, error management, and implemented custom logic for real-world text processing tasks.
 
 ---
@@ -221,6 +221,17 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
   - **LoanApproval**: Built a loan approval system with classes for different loan types (`AutoLoan.cs`, `HomeLoan.cs`), applicant management (`Applicant.cs`), and approval logic (`LoanUtilityImpl.cs`). Used interfaces (`IApprovable.cs`) and menu-driven navigation (`LoanMenu.cs`, `LoanMain.cs`) to simulate real-world loan processing and decision-making. Practiced abstraction, polymorphism, and robust input validation.
   - **MetalFactoryPipeLine**: Created a pipeline management system for metal factory operations. Implemented pipe cutting logic (`PipeUtilityImpl.cs`), node-based pipeline structure (`PipeNode.cs`), and user interface (`PipeMenu.cs`, `PipeMain.cs`). Used interfaces (`IPipeCutting.cs`) for modular design and scenario simulation. Focused on efficient resource allocation and process automation.
   - **Advantages:** Strengthened skills in modular OOP design, interface-driven development, linked list and node management, and building scalable, real-world scenario applications in C#.
+
+---
+
+### 13 January 2026 — Scenario-Based Projects: CinemaTime, BookBuddy & LeetCode LinkedList Solutions (completed)
+- Completed and tested two scenario-based C# projects:
+  - **CinemaTime**: Built a movie management system with classes for movie storage (`Movie.cs`), linked list management (`MovieLinkedList.cs`), user interface (`MovieMenu.cs`), and service logic (`MovieUtilityImpl.cs`). Implemented features for adding, viewing, and searching movies, using custom linked list structures for dynamic data handling. Practiced modular design, user-driven workflows, and efficient search algorithms.
+  - **BookBuddy**: Developed a book management application with classes for book records (`Book.cs`), linked list management (`BookLinkedList.cs`), user interface (`BookMenu.cs`), and service logic (`BookUtilityImpl.cs`). Enabled adding, searching, and displaying books, leveraging linked lists for flexible data storage. Focused on extensible, maintainable code and real-world library management scenarios.
+  - **Advantages:** Strengthened skills in custom data structure implementation, modular OOP design, and building interactive, user-friendly applications for real-world scenarios.
+- In `leetcode-codebased`, added 4 new files with solutions to classic LinkedList problems (simple/easy level):
+  - Each file contains a C# solution for a standard LinkedList problem, demonstrating node manipulation, traversal, and basic algorithmic logic.
+  - **Advantages:** Practiced clean, efficient coding for technical interviews and deepened understanding of LinkedList operations in C#.
 
 ---
 

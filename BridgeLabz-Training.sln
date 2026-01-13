@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "datastructure-csharp-practice", "datastructure-csharp-practice", "{CFD794E8-D647-104F-091B-BF73529A0508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scenario-based", "scenario-based", "{606D9446-7CC9-2BCC-0606-979B06418E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureManufacturing", "datastructure-csharp-practice\scenario-based\FurnitureManufacturing\FurnitureManufacturing.csproj", "{06148AC8-F5EE-D4E5-AE58-F0CFC4AF3179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanApproval", "datastructure-csharp-practice\scenario-based\LoanApproval\LoanApproval.csproj", "{D98B1447-F6B6-4B42-C133-49201C1DE164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalFactoryPipeLine", "datastructure-csharp-practice\scenario-based\MetalFactoryPipeLine\MetalFactoryPipeLine.csproj", "{DDDEC472-AB8D-BEDA-6D70-78E945175E70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06148AC8-F5EE-D4E5-AE58-F0CFC4AF3179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06148AC8-F5EE-D4E5-AE58-F0CFC4AF3179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06148AC8-F5EE-D4E5-AE58-F0CFC4AF3179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06148AC8-F5EE-D4E5-AE58-F0CFC4AF3179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98B1447-F6B6-4B42-C133-49201C1DE164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98B1447-F6B6-4B42-C133-49201C1DE164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98B1447-F6B6-4B42-C133-49201C1DE164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98B1447-F6B6-4B42-C133-49201C1DE164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDEC472-AB8D-BEDA-6D70-78E945175E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDEC472-AB8D-BEDA-6D70-78E945175E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDEC472-AB8D-BEDA-6D70-78E945175E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDEC472-AB8D-BEDA-6D70-78E945175E70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{606D9446-7CC9-2BCC-0606-979B06418E77} = {CFD794E8-D647-104F-091B-BF73529A0508}
+		{06148AC8-F5EE-D4E5-AE58-F0CFC4AF3179} = {606D9446-7CC9-2BCC-0606-979B06418E77}
+		{D98B1447-F6B6-4B42-C133-49201C1DE164} = {606D9446-7CC9-2BCC-0606-979B06418E77}
+		{DDDEC472-AB8D-BEDA-6D70-78E945175E70} = {606D9446-7CC9-2BCC-0606-979B06418E77}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA22CE0C-2336-46CA-B2A8-C1477C11DADB}
+	EndGlobalSection
+EndGlobal
