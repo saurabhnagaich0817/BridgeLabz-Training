@@ -1,12 +1,10 @@
-using System;
-
 public class MovieMenu
 {
     private IMovieService service;
 
     public MovieMenu()
     {
-        service = new MovieUtility();
+        service = new MovieUtilityImpl();
     }
 
     public void ShowMenu()
@@ -27,28 +25,19 @@ public class MovieMenu
             switch (choice)
             {
                 case 1:
-                    Console.Write("Enter movie title: ");
-                    string title = Console.ReadLine();
-
-                    Console.Write("Enter show time: ");
-                    string time = Console.ReadLine();
-
-                    service.AddMovie(title, time);
-                    Console.WriteLine("Movie added successfully");
+                    service.AddMovie();       
                     break;
 
                 case 2:
-                   service.ViewAllMovies();  
-                   break;
+                    service.ViewAllMovies();
+                    break;
 
                 case 3:
-                  Console.Write("Enter keyword: ");
-                  string keyword = Console.ReadLine();
-                  service.SearchMovie(keyword);   
-                  break;
+                    service.SearchMovie();    
+                    break;
 
                 case 4:
-                    Console.WriteLine("Exiting...");
+                    Console.WriteLine("Exiting");
                     break;
 
                 default:

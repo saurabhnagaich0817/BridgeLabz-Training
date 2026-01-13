@@ -18,7 +18,7 @@ public class Movie
   }
   public override string ToString()
   {
-    return "Movie"+title+"| Time"+showTime;
+    return "Movie ->"+title+"| Time->  "+showTime;
   }
 
 }
