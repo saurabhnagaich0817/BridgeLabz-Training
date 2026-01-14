@@ -224,6 +224,36 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
 
 ---
 
+### 13 January 2026 — Searching Algorithms in C# (completed)
+- Focused on searching algorithm assignments in `datastructure-csharp-practice/gcr-codebase/c#-searching-algorithm`:
+  - Implemented and tested classic searching algorithms: `BinarySearch/FirstlastOccurence.cs`, `BinarySearch/PeakElement.cs`, `BinarySearch/RotationPoint.cs`, `BinarySearch/Search2dMatrix.cs`, and linear search problems in `Linearsearch/FirstNegative.cs`, `Linearsearch/SearchWordsentence.cs`.
+  - Tackled challenge problems in `ChallengeProblem/LinearBinary.cs` to compare linear and binary search approaches.
+  - Practiced writing efficient, modular code for searching arrays and matrices, analyzing time complexity, and handling edge cases.
+  - **Advantages:** Strengthened algorithmic thinking, improved ability to select and implement the right search strategy for different data types, and gained hands-on experience with both iterative and recursive search logic in C#.
+
+---
+
+### 14 January 2026 — LeetCode Practice: Array & LinkedList Problems (completed)
+- Solved additional LeetCode problems in `leetcode-codebased` focusing on array and linked list challenges:
+  - Practiced problems such as `RemoveDuplicatesFromSortedArray.cs`, `IntersectionOfTwoArrays.cs`, `MiddleOfLinkedList.cs`, and `PalindromeLinkedList.cs`.
+  - Each file contains a C# solution with clear logic, comments, and edge case handling for technical interview preparation.
+  - **Advantages:** Improved problem-solving speed, deepened understanding of C# data structures, and practiced writing clean, efficient code for real-world coding assessments.
+  - **Skills Gained:** Array manipulation, pointer logic, linked list traversal, and debugging techniques for complex scenarios.
+
+---
+
+### 14 January 2026 — LeetCode Practice: LinkedList & Array Problems (completed)
+- Solved multiple LeetCode problems in `leetcode-codebased`:
+  - Added/updated solutions for:
+    - `AddTwoNumber.cs`: Implemented addition of two numbers represented by linked lists, handling carry and node traversal.
+    - `Linkedcycle2.cs`, `LinkedListCycle.cs`: Detected cycles in linked lists using fast/slow pointer techniques.
+    - `RemoveElement.cs`, `RemoveNthNode.cs`: Practiced node removal and element deletion logic in linked lists and arrays.
+    - `Reorderlist.cs`, `ReverseList.cs`: Reordered and reversed linked lists, focusing on pointer manipulation and in-place operations.
+    - `Twosum.cs`: Solved the classic Two Sum problem using hash maps for efficient lookup.
+  - **Advantages:** Enhanced problem-solving skills for technical interviews, deepened understanding of linked list and array manipulation in C#, and practiced writing clean, efficient, and bug-free code for algorithmic challenges.
+
+---
+
 ### 13 January 2026 — Scenario-Based Projects: CinemaTime, BookBuddy & LeetCode LinkedList Solutions (completed)
 - Completed and tested two scenario-based C# projects:
   - **CinemaTime**: Built a movie management system with classes for movie storage (`Movie.cs`), linked list management (`MovieLinkedList.cs`), user interface (`MovieMenu.cs`), and service logic (`MovieUtilityImpl.cs`). Implemented features for adding, viewing, and searching movies, using custom linked list structures for dynamic data handling. Practiced modular design, user-driven workflows, and efficient search algorithms.
