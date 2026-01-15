@@ -1,10 +1,12 @@
 using System;
+
 public class AddressBookUtilityImpl
 {
-  private Contact contact=new  Contact();
-  public void AddContact()
-  {
-    Console.Write("Enter First Name: ");
+    private Contact contact = new Contact();
+
+    public void AddContact()
+    {
+        Console.Write("Enter First Name: ");
         contact.SetFirstName(Console.ReadLine());
 
         Console.Write("Enter Last Name: ");
@@ -27,13 +29,34 @@ public class AddressBookUtilityImpl
 
         Console.Write("Enter Email: ");
         contact.SetEmail(Console.ReadLine());
-  }
+    }
 
-        public void DisplayContact(){
-           Console.WriteLine("\n save contact Details");
-           Console.WriteLine(contact.ToString());
-         }
-    
-  }
+    public void EditContact()
+    {
+        Console.WriteLine("\nEdit Contact Details");
 
+        Console.Write("Enter New Address: ");
+        contact.SetAddress(Console.ReadLine());
 
+        Console.Write("Enter New City: ");
+        contact.SetCity(Console.ReadLine());
+
+        Console.Write("Enter New State: ");
+        contact.SetState(Console.ReadLine());
+
+        Console.Write("Enter New Zip: ");
+        contact.SetZip(Console.ReadLine());
+
+        Console.Write("Enter New Phone: ");
+        contact.SetPhone(Console.ReadLine());
+
+        Console.Write("Enter New Email: ");
+        contact.SetEmail(Console.ReadLine());
+    }
+
+    public void DisplayContact()
+    {
+        Console.WriteLine("\nContact Details:");
+        Console.WriteLine(contact.ToString());
+    }
+}
