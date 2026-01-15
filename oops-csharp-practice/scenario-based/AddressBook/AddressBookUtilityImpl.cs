@@ -5,7 +5,7 @@ public class AddressBookUtilityImpl : IAddressBook
     private Contact[] contacts = new Contact[10];
     private int count = 0;
 
-  
+ 
     public void AddContact()
     {
         AddMultipleContacts();
@@ -30,13 +30,22 @@ public class AddressBookUtilityImpl : IAddressBook
                 return;
             }
 
-            Contact contact = new Contact();
-
             Console.Write("Enter First Name: ");
-            contact.SetFirstName(Console.ReadLine());
+            string firstName = Console.ReadLine();
 
             Console.Write("Enter Last Name: ");
-            contact.SetLastName(Console.ReadLine());
+            string lastName = Console.ReadLine();
+
+          
+            if (IsDuplicate(firstName, lastName))
+            {
+                Console.WriteLine("Duplicate Contact Found. Not Added.\n");
+                continue;
+            }
+
+            Contact contact = new Contact();
+            contact.SetFirstName(firstName);
+            contact.SetLastName(lastName);
 
             Console.Write("Enter Address: ");
             contact.SetAddress(Console.ReadLine());
@@ -61,6 +70,20 @@ public class AddressBookUtilityImpl : IAddressBook
 
             Console.WriteLine("Contact Added Successfully\n");
         }
+    }
+
+   
+    private bool IsDuplicate(string firstName, string lastName)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            if (contacts[i].GetFirstName() == firstName &&
+                contacts[i].GetLastName() == lastName)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void DisplayContacts()
