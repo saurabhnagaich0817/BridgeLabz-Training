@@ -5,6 +5,7 @@ public class AddressBookUtilityImpl
     private Contact contact = new Contact();
     private bool isContactAdded = false;
 
+    // UC-1 : Add Contact
     public void AddContact()
     {
         Console.Write("Enter First Name: ");
@@ -32,8 +33,10 @@ public class AddressBookUtilityImpl
         contact.SetEmail(Console.ReadLine());
 
         isContactAdded = true;
+        Console.WriteLine("Contact Added Successfully ");
     }
 
+    // UC-3 : Edit Contact by Name
     public void EditContactByName()
     {
         if (!isContactAdded)
@@ -69,7 +72,36 @@ public class AddressBookUtilityImpl
             Console.Write("Enter New Email: ");
             contact.SetEmail(Console.ReadLine());
 
-            Console.WriteLine("Contact updated successfully");
+            Console.WriteLine("Contact updated successfully ");
+        }
+        else
+        {
+            Console.WriteLine("Contact not found ");
+        }
+    }
+
+    // UC-4 : Delete Contact by Name
+    public void DeleteContactByName()
+    {
+        if (!isContactAdded)
+        {
+            Console.WriteLine("No contact available to delete");
+            return;
+        }
+
+        Console.Write("Enter First Name to Delete: ");
+        string firstName = Console.ReadLine();
+
+        Console.Write("Enter Last Name to Delete: ");
+        string lastName = Console.ReadLine();
+
+        if (contact.GetFirstName() == firstName &&
+            contact.GetLastName() == lastName)
+        {
+            contact = new Contact();   
+            isContactAdded = false;
+
+            Console.WriteLine("Contact deleted successfully ");
         }
         else
         {
