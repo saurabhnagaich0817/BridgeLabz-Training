@@ -5,23 +5,41 @@ class AddressBookMain
     static void Main()
     {
         AddressBookSystem system = new AddressBookSystem();
-        system.AddAddressBook("Office");
-        system.AddAddressBook("Home");
 
-        Console.WriteLine("1. Search by City");
-        Console.WriteLine("2. Search by State");
+        Console.Write("Enter AddressBook Name: ");
+        string name = Console.ReadLine();
 
-        int ch = Convert.ToInt32(Console.ReadLine());
+        IAddressBookService service =
+            system.GetAddressBook(name);
 
-        if (ch == 1)
+        int choice;
+        do
         {
-            Console.Write("Enter City: ");
-            system.SearchByCityAcrossBooks(Console.ReadLine());
-        }
-        else if (ch == 2)
-        {
-            Console.Write("Enter State: ");
-            system.SearchByStateAcrossBooks(Console.ReadLine());
-        }
+            Console.WriteLine("\n1 Add");
+            Console.WriteLine("2 Edit");
+            Console.WriteLine("3 Delete");
+            Console.WriteLine("4 Display");
+            Console.WriteLine("5 Search By City");
+            Console.WriteLine("6 Search By State");
+            Console.WriteLine("0 Exit");
+
+            choice = int.Parse(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1: service.AddContact(); break;
+                case 2: service.EditContact(); break;
+                case 3: service.DeleteContact(); break;
+                case 4: service.DisplayContacts(); break;
+                case 5:
+                    Console.Write("City: ");
+                    service.SearchByCity(Console.ReadLine());
+                    break;
+                case 6:
+                    Console.Write("State: ");
+                    service.SearchByState(Console.ReadLine());
+                    break;
+            }
+        } while (choice != 0);
     }
 }

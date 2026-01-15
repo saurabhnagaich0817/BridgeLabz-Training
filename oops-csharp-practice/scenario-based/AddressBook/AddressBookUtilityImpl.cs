@@ -2,20 +2,21 @@ using System;
 
 public class AddressBookUtilityImpl : IAddressBookService
 {
-    private Contact[] contacts = new Contact[10];
+    private Contact[] contacts = new Contact[100];
     private int count = 0;
 
+    // ---------- UC1 ----------
     public void AddContact()
     {
-        Console.Write("Enter First Name: ");
+        Console.Write("First Name: ");
         string fn = Console.ReadLine();
 
-        Console.Write("Enter Last Name: ");
+        Console.Write("Last Name: ");
         string ln = Console.ReadLine();
 
         if (IsDuplicate(fn, ln))
         {
-            Console.WriteLine("Duplicate contact not allowed");
+            Console.WriteLine("Duplicate Contact Not Allowed (UC6)");
             return;
         }
 
@@ -23,34 +24,37 @@ public class AddressBookUtilityImpl : IAddressBookService
         c.SetFirstName(fn);
         c.SetLastName(ln);
 
-        Console.Write("Enter Address: ");
+        Console.Write("Address: ");
         c.SetAddress(Console.ReadLine());
 
-        Console.Write("Enter City: ");
+        Console.Write("City: ");
         c.SetCity(Console.ReadLine());
 
-        Console.Write("Enter State: ");
+        Console.Write("State: ");
         c.SetState(Console.ReadLine());
 
-        Console.Write("Enter Zip: ");
+        Console.Write("Zip: ");
         c.SetZip(Console.ReadLine());
 
-        Console.Write("Enter Phone: ");
+        Console.Write("Phone: ");
         c.SetPhone(Console.ReadLine());
 
-        Console.Write("Enter Email: ");
+        Console.Write("Email: ");
         c.SetEmail(Console.ReadLine());
 
-        contacts[count++] = c;
+        contacts[count] = c;
+        count++;
+
         Console.WriteLine("Contact Added Successfully");
     }
 
-    public void EditContactByName()
+    // ---------- UC2 ----------
+    public void EditContact()
     {
-        Console.Write("Enter First Name: ");
+        Console.Write("First Name: ");
         string fn = Console.ReadLine();
 
-        Console.Write("Enter Last Name: ");
+        Console.Write("Last Name: ");
         string ln = Console.ReadLine();
 
         for (int i = 0; i < count; i++)
@@ -58,10 +62,10 @@ public class AddressBookUtilityImpl : IAddressBookService
             if (contacts[i].GetFirstName() == fn &&
                 contacts[i].GetLastName() == ln)
             {
-                Console.Write("Enter New City: ");
+                Console.Write("New City: ");
                 contacts[i].SetCity(Console.ReadLine());
 
-                Console.Write("Enter New State: ");
+                Console.Write("New State: ");
                 contacts[i].SetState(Console.ReadLine());
 
                 Console.WriteLine("Contact Updated");
@@ -71,12 +75,13 @@ public class AddressBookUtilityImpl : IAddressBookService
         Console.WriteLine("Contact Not Found");
     }
 
-    public void DeleteContactByName()
+    // ---------- UC3 ----------
+    public void DeleteContact()
     {
-        Console.Write("Enter First Name: ");
+        Console.Write("First Name: ");
         string fn = Console.ReadLine();
 
-        Console.Write("Enter Last Name: ");
+        Console.Write("Last Name: ");
         string ln = Console.ReadLine();
 
         for (int i = 0; i < count; i++)
@@ -85,8 +90,10 @@ public class AddressBookUtilityImpl : IAddressBookService
                 contacts[i].GetLastName() == ln)
             {
                 for (int j = i; j < count - 1; j++)
+                {
                     contacts[j] = contacts[j + 1];
-
+                }
+                contacts[count - 1] = null;
                 count--;
                 Console.WriteLine("Contact Deleted");
                 return;
@@ -95,12 +102,16 @@ public class AddressBookUtilityImpl : IAddressBookService
         Console.WriteLine("Contact Not Found");
     }
 
+    // ---------- UC4 ----------
     public void DisplayContacts()
     {
         for (int i = 0; i < count; i++)
+        {
             Console.WriteLine(contacts[i]);
+        }
     }
 
+    // ---------- UC6 ----------
     public bool IsDuplicate(string fn, string ln)
     {
         for (int i = 0; i < count; i++)
@@ -112,44 +123,22 @@ public class AddressBookUtilityImpl : IAddressBookService
         return false;
     }
 
-    public int CountByState(string state)
+    // ---------- UC8 ----------
+    public void SearchByCity(string city)
     {
-        int c = 0;
-        for (int i = 0; i < count; i++)
-            if (contacts[i].GetState() == state)
-                c++;
-        return c;
-    }
-
-    // ================= UC 8 =================
-
-    public void SearchPersonByCity(string city)
-    {
-        bool found = false;
         for (int i = 0; i < count; i++)
         {
             if (contacts[i].GetCity() == city)
-            {
                 Console.WriteLine(contacts[i]);
-                found = true;
-            }
         }
-        if (!found)
-            Console.WriteLine("No person found in this city");
     }
 
-    public void SearchPersonByState(string state)
+    public void SearchByState(string state)
     {
-        bool found = false;
         for (int i = 0; i < count; i++)
         {
             if (contacts[i].GetState() == state)
-            {
                 Console.WriteLine(contacts[i]);
-                found = true;
-            }
         }
-        if (!found)
-            Console.WriteLine("No person found in this state");
     }
 }

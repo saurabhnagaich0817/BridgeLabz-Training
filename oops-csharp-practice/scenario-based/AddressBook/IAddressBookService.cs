@@ -1,11 +1,10 @@
 public interface IAddressBookService
 {
-    void AddContact();
-    void EditContactByName();
-    void DeleteContactByName();
-    void DisplayContacts();
-    bool IsDuplicate(string firstName, string lastName);
-    int CountByState(string state);
-    void SearchPersonByCity(string city);
-    void SearchPersonByState(string state);
+    void AddContact();        // UC1
+    void EditContact();       // UC2
+    void DeleteContact();     // UC3
+    void DisplayContacts();   // UC4
+    bool IsDuplicate(string fn, string ln); // UC6
+    void SearchByCity(string city);   // UC8
+    void SearchByState(string state); // UC8
 }
