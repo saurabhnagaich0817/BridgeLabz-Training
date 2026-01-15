@@ -16,7 +16,7 @@ public class AddressBookMain
 
         if (choice.ToLower() == "yes")
         {
-            utility.EditContact();
+            utility.EditContactByName();
             utility.DisplayContact();
         }
     }
