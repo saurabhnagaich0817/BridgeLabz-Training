@@ -1,5 +1,3 @@
-using System;
-
 public class Contact
 {
     private string firstName;
@@ -24,15 +22,6 @@ public class Contact
     public string GetLastName() { return lastName; }
     public string GetCity() { return city; }
     public string GetState() { return state; }
-
-    public override bool Equals(object obj)
-    {
-        Contact other = obj as Contact;
-        if (other == null) return false;
-
-        return firstName == other.firstName &&
-               lastName == other.lastName;
-    }
 
     public override string ToString()
     {

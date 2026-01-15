@@ -1,15 +1,13 @@
 using System;
 
-class AddressBookMain
+public class Menu
 {
-    static void Main()
+    public void Start()
     {
-        AddressBookSystem system = new AddressBookSystem();
-
         Console.Write("Enter AddressBook Name: ");
         string name = Console.ReadLine();
 
-        IAddressBookService service = system.GetAddressBook(name);
+        IAddressBookService service = new AddressBookUtility(name);
 
         int choice;
         do
@@ -20,10 +18,11 @@ class AddressBookMain
             Console.WriteLine("4 Display");
             Console.WriteLine("5 Search By City");
             Console.WriteLine("6 Search By State");
-            Console.WriteLine("7 View Persons By City (UC9)");
-            Console.WriteLine("8 View Persons By State (UC9)");
-            Console.WriteLine("9 Count By City (UC10)");
-            Console.WriteLine("10 Count By State (UC10)");
+            Console.WriteLine("7 View Persons By City");
+            Console.WriteLine("8 View Persons By State");
+            Console.WriteLine("9 Count By City");
+            Console.WriteLine("10 Count By State");
+            Console.WriteLine("11 Sort By Person Name");
             Console.WriteLine("0 Exit");
 
             choice = int.Parse(Console.ReadLine());
@@ -45,26 +44,24 @@ class AddressBookMain
                     service.SearchByState(Console.ReadLine());
                     break;
 
-                case 7:
-                    service.ViewPersonsByCity();
-                    break;
-
-                case 8:
-                    service.ViewPersonsByState();
-                    break;
+                case 7: service.ViewPersonsByCity(); break;
+                case 8: service.ViewPersonsByState(); break;
 
                 case 9:
                     Console.Write("City: ");
-                    string city = Console.ReadLine();
-                    Console.WriteLine("Total Contacts: " + service.CountByCity(city));
+                    Console.WriteLine(service.CountByCity(Console.ReadLine()));
                     break;
 
                 case 10:
                     Console.Write("State: ");
-                    string state = Console.ReadLine();
-                    Console.WriteLine("Total Contacts: " + service.CountByState(state));
+                    Console.WriteLine(service.CountByState(Console.ReadLine()));
+                    break;
+
+                case 11:
+                    service.SortByPersonName();
                     break;
             }
+
         } while (choice != 0);
     }
 }
