@@ -1,23 +1,27 @@
 using System;
 
-public class AddressBookMain
+class AddressBookMain
 {
-    public static void Main()
+    static void Main()
     {
-        Console.WriteLine("Welcome to Address Book Program");
+        AddressBookSystem system = new AddressBookSystem();
+        system.AddAddressBook("Office");
+        system.AddAddressBook("Home");
 
-        AddressBookUtilityImpl utility = new AddressBookUtilityImpl();
+        Console.WriteLine("1. Search by City");
+        Console.WriteLine("2. Search by State");
 
-        utility.AddContact();
-        utility.DisplayContact();
+        int ch = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("\nDo you want to edit contact? (yes/no)");
-        string choice = Console.ReadLine();
-
-        if (choice.ToLower() == "yes")
+        if (ch == 1)
         {
-            utility.EditContactByName();
-            utility.DisplayContact();
+            Console.Write("Enter City: ");
+            system.SearchByCityAcrossBooks(Console.ReadLine());
+        }
+        else if (ch == 2)
+        {
+            Console.Write("Enter State: ");
+            system.SearchByStateAcrossBooks(Console.ReadLine());
         }
     }
 }

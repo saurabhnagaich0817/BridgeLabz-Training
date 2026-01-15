@@ -1,143 +1,155 @@
 using System;
 
-public class AddressBookUtilityImpl : IAddressBook
+public class AddressBookUtilityImpl : IAddressBookService
 {
     private Contact[] contacts = new Contact[10];
     private int count = 0;
 
- 
     public void AddContact()
     {
-        AddMultipleContacts();
-    }
+        Console.Write("Enter First Name: ");
+        string fn = Console.ReadLine();
 
-    public void DisplayContact()
-    {
-        DisplayContacts();
-    }
+        Console.Write("Enter Last Name: ");
+        string ln = Console.ReadLine();
 
-  
-    public void AddMultipleContacts()
-    {
-        Console.Write("How many contacts you want to add: ");
-        int n = int.Parse(Console.ReadLine() ?? "0");
-
-        for (int i = 0; i < n; i++)
+        if (IsDuplicate(fn, ln))
         {
-            if (count >= contacts.Length)
-            {
-                Console.WriteLine("Address Book is Full");
-                return;
-            }
-
-            Console.Write("Enter First Name: ");
-            string firstName = Console.ReadLine();
-
-            Console.Write("Enter Last Name: ");
-            string lastName = Console.ReadLine();
-
-          
-            if (IsDuplicate(firstName, lastName))
-            {
-                Console.WriteLine("Duplicate Contact Found. Not Added.\n");
-                continue;
-            }
-
-            Contact contact = new Contact();
-            contact.SetFirstName(firstName);
-            contact.SetLastName(lastName);
-
-            Console.Write("Enter Address: ");
-            contact.SetAddress(Console.ReadLine());
-
-            Console.Write("Enter City: ");
-            contact.SetCity(Console.ReadLine());
-
-            Console.Write("Enter State: ");
-            contact.SetState(Console.ReadLine());
-
-            Console.Write("Enter Zip: ");
-            contact.SetZip(Console.ReadLine());
-
-            Console.Write("Enter Phone: ");
-            contact.SetPhone(Console.ReadLine());
-
-            Console.Write("Enter Email: ");
-            contact.SetEmail(Console.ReadLine());
-
-            contacts[count] = contact;
-            count++;
-
-            Console.WriteLine("Contact Added Successfully\n");
-        }
-    }
-
-   
-    private bool IsDuplicate(string firstName, string lastName)
-    {
-        for (int i = 0; i < count; i++)
-        {
-            if (contacts[i].GetFirstName() == firstName &&
-                contacts[i].GetLastName() == lastName)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    public void DisplayContacts()
-    {
-        if (count == 0)
-        {
-            Console.WriteLine("No contacts available");
+            Console.WriteLine("Duplicate contact not allowed");
             return;
         }
 
-        for (int i = 0; i < count; i++)
-        {
-            Console.WriteLine("Contact " + (i + 1));
-            Console.WriteLine(contacts[i].ToString());
-            Console.WriteLine();
-        }
+        Contact c = new Contact();
+        c.SetFirstName(fn);
+        c.SetLastName(ln);
+
+        Console.Write("Enter Address: ");
+        c.SetAddress(Console.ReadLine());
+
+        Console.Write("Enter City: ");
+        c.SetCity(Console.ReadLine());
+
+        Console.Write("Enter State: ");
+        c.SetState(Console.ReadLine());
+
+        Console.Write("Enter Zip: ");
+        c.SetZip(Console.ReadLine());
+
+        Console.Write("Enter Phone: ");
+        c.SetPhone(Console.ReadLine());
+
+        Console.Write("Enter Email: ");
+        c.SetEmail(Console.ReadLine());
+
+        contacts[count++] = c;
+        Console.WriteLine("Contact Added Successfully");
     }
 
     public void EditContactByName()
     {
-        Console.Write("Enter First Name to Edit: ");
-        string firstName = Console.ReadLine();
+        Console.Write("Enter First Name: ");
+        string fn = Console.ReadLine();
 
-        Console.Write("Enter Last Name to Edit: ");
-        string lastName = Console.ReadLine();
+        Console.Write("Enter Last Name: ");
+        string ln = Console.ReadLine();
 
         for (int i = 0; i < count; i++)
         {
-            if (contacts[i].GetFirstName() == firstName &&
-                contacts[i].GetLastName() == lastName)
+            if (contacts[i].GetFirstName() == fn &&
+                contacts[i].GetLastName() == ln)
             {
-                Console.Write("Enter New Address: ");
-                contacts[i].SetAddress(Console.ReadLine());
-
                 Console.Write("Enter New City: ");
                 contacts[i].SetCity(Console.ReadLine());
 
                 Console.Write("Enter New State: ");
                 contacts[i].SetState(Console.ReadLine());
 
-                Console.Write("Enter New Zip: ");
-                contacts[i].SetZip(Console.ReadLine());
-
-                Console.Write("Enter New Phone: ");
-                contacts[i].SetPhone(Console.ReadLine());
-
-                Console.Write("Enter New Email: ");
-                contacts[i].SetEmail(Console.ReadLine());
-
-                Console.WriteLine("Contact Updated Successfully");
+                Console.WriteLine("Contact Updated");
                 return;
             }
         }
-
         Console.WriteLine("Contact Not Found");
+    }
+
+    public void DeleteContactByName()
+    {
+        Console.Write("Enter First Name: ");
+        string fn = Console.ReadLine();
+
+        Console.Write("Enter Last Name: ");
+        string ln = Console.ReadLine();
+
+        for (int i = 0; i < count; i++)
+        {
+            if (contacts[i].GetFirstName() == fn &&
+                contacts[i].GetLastName() == ln)
+            {
+                for (int j = i; j < count - 1; j++)
+                    contacts[j] = contacts[j + 1];
+
+                count--;
+                Console.WriteLine("Contact Deleted");
+                return;
+            }
+        }
+        Console.WriteLine("Contact Not Found");
+    }
+
+    public void DisplayContacts()
+    {
+        for (int i = 0; i < count; i++)
+            Console.WriteLine(contacts[i]);
+    }
+
+    public bool IsDuplicate(string fn, string ln)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            if (contacts[i].GetFirstName() == fn &&
+                contacts[i].GetLastName() == ln)
+                return true;
+        }
+        return false;
+    }
+
+    public int CountByState(string state)
+    {
+        int c = 0;
+        for (int i = 0; i < count; i++)
+            if (contacts[i].GetState() == state)
+                c++;
+        return c;
+    }
+
+    // ================= UC 8 =================
+
+    public void SearchPersonByCity(string city)
+    {
+        bool found = false;
+        for (int i = 0; i < count; i++)
+        {
+            if (contacts[i].GetCity() == city)
+            {
+                Console.WriteLine(contacts[i]);
+                found = true;
+            }
+        }
+        if (!found)
+            Console.WriteLine("No person found in this city");
+    }
+
+    public void SearchPersonByState(string state)
+    {
+        bool found = false;
+        for (int i = 0; i < count; i++)
+        {
+            if (contacts[i].GetState() == state)
+            {
+                Console.WriteLine(contacts[i]);
+                found = true;
+            }
+        }
+        if (!found)
+            Console.WriteLine("No person found in this state");
     }
 }
