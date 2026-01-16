@@ -263,6 +263,13 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
   - Each file contains a C# solution for a standard LinkedList problem, demonstrating node manipulation, traversal, and basic algorithmic logic.
   - **Advantages:** Practiced clean, efficient coding for technical interviews and deepened understanding of LinkedList operations in C#.
 
+ - **15 January 2026** — Scenario-Based Project: Address Book (completed)
+  - Completed the Address Book application in the `scenario-based/AddressBook` folder.
+    - Developed classes for managing contacts, including adding, editing, deleting, and searching for contact details.
+    - Implemented features for storing multiple contacts, validating user input, and displaying contact lists in a user-friendly format.
+    - Practiced modular programming, data validation, and collection management using C# lists and custom classes.
+    - **Advantages:** Improved skills in CRUD operations, user input handling, and designing maintainable, real-world applications with clear separation of concerns.
+
 ---
 
 ## Skills & Best Practices
