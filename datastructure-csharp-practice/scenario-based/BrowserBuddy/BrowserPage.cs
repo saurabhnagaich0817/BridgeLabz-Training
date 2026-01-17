@@ -6,7 +6,6 @@ public class BrowserPage
     {
         this.url = url;
     }
-
     public string GetUrl()
     {
         return url;
