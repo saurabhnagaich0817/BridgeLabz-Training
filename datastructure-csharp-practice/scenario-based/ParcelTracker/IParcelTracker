@@ -1,0 +1,9 @@
+using System;
+
+interface IParcelTracker
+{
+    void InitStages();
+    void InsertStage(string after, string stage);
+    void ShowTracking();
+    void ClearParcel();
+}
