@@ -292,6 +292,12 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
 
 
 ---
+### 20 January 2026 — Scenario-Based Project: Password Cracker (completed)
+- Completed the Password Cracker project in `scenario-based/PasswordCracker`:
+  - **Vault.cs**: Designed a secure vault class to store, retrieve, and update passwords. Implemented encapsulation for password management and provided methods for controlled access and modification.
+  - Developed supporting logic for simulating password cracking attempts, validating user guesses, and providing feedback.
+  - Practiced secure data handling, class encapsulation, and user interaction for authentication scenarios.
+  - **Advantages:** Strengthened understanding of encapsulation, secure coding practices, and real-world authentication workflows in C#.
 
 
 ## Skills & Best Practices
