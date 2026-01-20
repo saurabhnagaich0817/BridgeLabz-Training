@@ -276,9 +276,23 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
   - **BookShelf**: Built a digital bookshelf application to manage book collections. Enabled adding, removing, searching, and displaying books with modular classes and robust input validation. Focused on collection management, user-friendly interfaces, and persistent data handling.
   - **TrafficManager**: Created a traffic management simulation to model vehicle flow, signal control, and congestion handling. Used queue and priority logic to simulate real-world traffic scenarios, optimize flow, and provide actionable feedback.
   - **Advantages:** Enhanced skills in scenario modeling, custom data structure implementation, and designing interactive, maintainable applications for real-world problems. Practiced modular OOP design, efficient data handling, and user-driven workflows.
-
   
+  ### 17 January 2026 — Scenario-Based Projects: FlashDealz & FitnessApp (completed)
+- Completed and tested two scenario-based C# projects:
+  - **FlashDealz**: Developed a flash deals management system to handle limited-time offers, product listings, and user purchases. Implemented features for deal activation, expiry, and user notifications. Practiced modular design, time-based logic, and interactive user experience for e-commerce scenarios.
+  - **FitnessApp**: Built a fitness tracking application to manage user profiles, workout logs, and progress tracking. Enabled adding exercises, recording sessions, and generating fitness reports. Focused on data validation, user-friendly interfaces, and persistent data management.
+  - **Advantages:** Enhanced skills in scenario modeling, time/event-driven logic, and designing interactive, maintainable applications for health and retail domains.
+
+### 19 January 2026 — Scenario-Based Projects: AddressBook, ExamProctor & ParcelTracker (completed)
+- Completed and tested three scenario-based C# projects:
+  - **AddressBook**: Enhanced the contact management system with advanced search, edit, and delete features. Improved data validation and user interface for managing multiple contacts efficiently.
+  - **ExamProctor**: Developed an exam proctoring system to manage student registrations, exam scheduling, and result tracking. Implemented logic for monitoring exam sessions, validating student identities, and generating performance reports.
+  - **ParcelTracker**: Built a parcel tracking application to manage shipments, delivery status, and customer notifications. Enabled adding parcels, updating delivery progress, and searching for parcel information. Focused on real-time status updates and user-friendly tracking features.
+  - **Advantages:** Strengthened skills in CRUD operations, event-driven programming, and building robust, user-centric applications for education and logistics.
+
+
 ---
+
 
 ## Skills & Best Practices
 - Modular, object-oriented code design
