@@ -269,7 +269,15 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
     - Implemented features for storing multiple contacts, validating user input, and displaying contact lists in a user-friendly format.
     - Practiced modular programming, data validation, and collection management using C# lists and custom classes.
     - **Advantages:** Improved skills in CRUD operations, user input handling, and designing maintainable, real-world applications with clear separation of concerns.
+    
+### 16 January 2026 — Scenario-Based Projects: BrowserBuddy, BookSelf & TrafficManager (completed)
+- Completed and tested three scenario-based C# projects:
+  - **BrowserBuddy**: Developed a browser history and tab management system using custom data structures. Implemented features for opening/closing tabs, navigating history, and searching URLs. Practiced stack and queue logic for browser navigation and efficient user experience.
+  - **BookShelf**: Built a digital bookshelf application to manage book collections. Enabled adding, removing, searching, and displaying books with modular classes and robust input validation. Focused on collection management, user-friendly interfaces, and persistent data handling.
+  - **TrafficManager**: Created a traffic management simulation to model vehicle flow, signal control, and congestion handling. Used queue and priority logic to simulate real-world traffic scenarios, optimize flow, and provide actionable feedback.
+  - **Advantages:** Enhanced skills in scenario modeling, custom data structure implementation, and designing interactive, maintainable applications for real-world problems. Practiced modular OOP design, efficient data handling, and user-driven workflows.
 
+  
 ---
 
 ## Skills & Best Practices
