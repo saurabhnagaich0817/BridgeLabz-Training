@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "collections-csharp-practice", "collections-csharp-practice", "{B74F3C35-59E8-51DC-66E2-E46BE919468F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scenario-based", "scenario-based", "{BCC98443-A04B-930B-BDC1-E5B5722CE080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRentalScenario", "collections-csharp-practice\scenario-based\BikeRentalScenario\BikeRentalScenario.csproj", "{A8C9EA06-3D70-D36D-B8DB-259F5BC9AB72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8C9EA06-3D70-D36D-B8DB-259F5BC9AB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C9EA06-3D70-D36D-B8DB-259F5BC9AB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C9EA06-3D70-D36D-B8DB-259F5BC9AB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C9EA06-3D70-D36D-B8DB-259F5BC9AB72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCC98443-A04B-930B-BDC1-E5B5722CE080} = {B74F3C35-59E8-51DC-66E2-E46BE919468F}
+		{A8C9EA06-3D70-D36D-B8DB-259F5BC9AB72} = {BCC98443-A04B-930B-BDC1-E5B5722CE080}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {131D0F8C-F9DE-46AD-AD9F-C484DCC4AB39}
+	EndGlobalSection
+EndGlobal

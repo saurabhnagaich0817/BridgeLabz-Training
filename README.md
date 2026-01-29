@@ -306,6 +306,52 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
   - Practiced collection management, sorting algorithms, and modular OOP design for academic record systems.
   - **Advantages:** Enhanced skills in data aggregation, ranking logic, and building user-friendly reporting tools for educational scenarios.
 
+---
+
+### 22 January 2026 — Streams & Exceptions (completed)
+- Summary: Implemented practical stream and file I/O examples and completed a set of focused exception-handling exercises.
+- What I implemented:
+  - `c#-streams`: Hands-on examples using `FileStream`, `StreamReader`/`StreamWriter`, and buffered I/O to read and write text and binary data reliably. Practiced using `using` blocks and `IDisposable` patterns to ensure proper resource cleanup.
+  - `c#-exception`: Completed and polished examples that demonstrate exception propagation, targeted `catch` blocks, and cleanup in `finally`. Key files reviewed/added: `ArrayExceptionDemo.cs`, `DivisionExceptionDemo.cs`, `FileNotFoundDemo.cs`, `FinallyBlockDemo.cs`, `UsingFileDemo.cs`, `InvalidAgeException.cs`.
+- Learning outcomes: Improved understanding of resource management, defensive programming with `try/catch`, creating and throwing custom exceptions, and writing fail-safe I/O code.
+
+---
+
+### 23 January 2026 — Regex & NUnit (completed)
+- Summary: Built a suite of regular-expression utilities and added NUnit tests to validate critical behaviors.
+- What I implemented:
+  - `c#-regex`: Implementations for common validation and extraction tasks (email validation, date and currency extraction, IP and credit card checks, hex code and color matching, capitalized-word extraction). Each example includes both pattern definition and sample usage demonstrating edge cases.
+  - `c#-testing-nunit`: Created NUnit test classes to cover the regex utilities and other small helpers. Tests include positive/negative cases, parameterized inputs, and setup/teardown where needed.
+- Learning outcomes: Gained confidence writing robust regular expressions, translating requirements into expressive patterns, and authoring repeatable unit tests with NUnit for regression protection.
+
+---
+
+### 27 January 2026 — Scenario-Based: HealthCheckPro & EventTraker (completed)
+- Summary: Completed two scenario projects that simulate monitoring and event-processing workflows.
+- What I implemented:
+  - `scenario-based/HealthCheckPro`: Implemented health-check workflows for simulated services (status probes, simple alert rules, and console/log reporting). Focused on modular health-check runners and clear status reporting for each component.
+  - `scenario-based/EventTraker`: Implemented event ingestion and basic tracking utilities (event models, simple in-memory store, and logging). Added sample scripts to replay events and validate tracking logic.
+- Learning outcomes: Practiced designing small service-like components, handling event streams in-memory, and producing clear logs and reports useful for debugging and monitoring.
+
+---
+
+### 28 January 2026 — Reflections, Attributes & Scenarios (completed)
+- Summary: Added reflection-based utilities and custom attribute examples, and finished two related scenario projects.
+- What I implemented:
+  - `c#-reflections`: Examples demonstrating runtime type inspection and dynamic invocation (`ClassInformationExtraction.cs`, `DynamicMethodInvocation.cs`, `DynamicObjectCreation.cs`, `PrivateFieldManipulation.cs`, `PrivateMethodInvocation.cs`, `ObjectMapper.cs`, `MethodExecutionTime.cs`, `JSONRepresentation.cs`). These showcase `Type` metadata, `MethodInfo` invocation, and pragmatic uses for reflection.
+  - `c#-attributes-annotation`: Implemented and documented custom attributes and attribute-driven behaviors (`TaskInfo.cs`, `BugReport.cs`, `LegacyAPIObsolete.cs`, `RoleBasedAccess.cs`, `SupressWarnings.cs`, `ImportantMethod.cs`). Added examples showing how attributes can drive runtime or build-time behavior.
+  - Scenario projects: Completed `scenario-based/AeroVigil` and `scenario-based/BankAccountTests` to demonstrate applying reflections/attributes in real scenarios and to increase test coverage for account logic.
+- Learning outcomes: Deepened knowledge of metadata-driven design, when to apply reflection responsibly, and how attributes can simplify cross-cutting concerns like logging and access control.
+
+---
+
+### 29 January 2026 — StreamBuzz & Bike Rental (completed)
+- Summary: Finalized two scenario-based projects that exercise streaming and rental workflows.
+- What I implemented:
+  - `scenario-based/StreamBuzz`: Implemented end-to-end streaming examples (producer/consumer pattern, simple buffering, and event handling) to demonstrate processing sequences of messages and handling backpressure in a simplified way.
+  - `scenario-based/BikeRentalScenario`: Implemented the bike rental workflow including inventory management, rental pricing and duration handling, discount rules, and simple persistence simulation via in-memory collections.
+- Learning outcomes: Practiced composing scenario flows from small building blocks, designing clear domain models (events, rentals), and writing code that is easier to test and extend.
+
 
 ## Skills & Best Practices
 - Modular, object-oriented code design

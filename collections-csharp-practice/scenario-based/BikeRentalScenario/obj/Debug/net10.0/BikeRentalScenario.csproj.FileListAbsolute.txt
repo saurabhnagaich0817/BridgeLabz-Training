@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.sourcelink.json
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\bin\Debug\net10.0\BikeRentalScenario.exe
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\bin\Debug\net10.0\BikeRentalScenario.deps.json
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\bin\Debug\net10.0\BikeRentalScenario.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\bin\Debug\net10.0\BikeRentalScenario.dll
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\bin\Debug\net10.0\BikeRentalScenario.pdb
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.dll
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\refint\BikeRentalScenario.dll
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.pdb
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\BikeRentalScenario.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\BikeRentalScenario\obj\Debug\net10.0\ref\BikeRentalScenario.dll
