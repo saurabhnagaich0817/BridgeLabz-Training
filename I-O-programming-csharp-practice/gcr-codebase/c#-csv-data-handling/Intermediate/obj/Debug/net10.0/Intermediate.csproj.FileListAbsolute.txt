@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\bin\Debug\net10.0\Intermediate.exe
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\bin\Debug\net10.0\Intermediate.deps.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\bin\Debug\net10.0\Intermediate.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\bin\Debug\net10.0\Intermediate.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\bin\Debug\net10.0\Intermediate.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.sourcelink.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\refint\Intermediate.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\Intermediate.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Intermediate\obj\Debug\net10.0\ref\Intermediate.dll

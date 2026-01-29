@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\bin\Debug\net10.0\Basic.exe
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\bin\Debug\net10.0\Basic.deps.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\bin\Debug\net10.0\Basic.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\bin\Debug\net10.0\Basic.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\bin\Debug\net10.0\Basic.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.sourcelink.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\refint\Basic.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\Basic.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Basic\obj\Debug\net10.0\ref\Basic.dll

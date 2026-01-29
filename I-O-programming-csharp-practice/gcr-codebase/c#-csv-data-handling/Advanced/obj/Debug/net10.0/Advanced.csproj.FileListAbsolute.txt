@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\bin\Debug\net10.0\Advanced.exe
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\bin\Debug\net10.0\Advanced.deps.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\bin\Debug\net10.0\Advanced.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\bin\Debug\net10.0\Advanced.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\bin\Debug\net10.0\Advanced.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.sourcelink.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\refint\Advanced.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\Advanced.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\c#-csv-data-handling\Advanced\obj\Debug\net10.0\ref\Advanced.dll
