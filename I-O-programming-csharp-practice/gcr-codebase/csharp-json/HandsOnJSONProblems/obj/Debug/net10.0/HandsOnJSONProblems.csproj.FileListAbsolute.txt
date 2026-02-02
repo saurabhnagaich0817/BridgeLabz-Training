@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\bin\Debug\net10.0\HandsOnJSONProblems.exe
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\bin\Debug\net10.0\HandsOnJSONProblems.deps.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\bin\Debug\net10.0\HandsOnJSONProblems.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\bin\Debug\net10.0\HandsOnJSONProblems.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\bin\Debug\net10.0\HandsOnJSONProblems.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.sourcelink.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\refint\HandsOnJSONProblems.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\HandsOnJSONProblems.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\gcr-codebase\csharp-json\HandsOnJSONProblems\obj\Debug\net10.0\ref\HandsOnJSONProblems.dll
