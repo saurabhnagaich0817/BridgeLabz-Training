@@ -1,26 +1,32 @@
-using System;
-
-public class Contact
+public class Contact : IContactEntity
 {
-    private string fName;
-    private string lName;
-    private string cityName;
-    private string stateName;
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Address { get; set; }
+    public string City { get; set; }
+    public string State { get; set; }
+    public string Zip { get; set; }
+    public string PhoneNumber { get; set; }
+    public string Email { get; set; }
 
-    public string GetFirstName() => fName;
-    public void SetFirstName(string value) => fName = value;
-
-    public string GetLastName() => lName;
-    public void SetLastName(string value) => lName = value;
-
-    public string GetCity() => cityName;
-    public void SetCity(string value) => cityName = value;
-
-    public string GetState() => stateName;
-    public void SetState(string value) => stateName = value;
-
-    public override string ToString()
+    public Contact(
+        string firstName,
+        string lastName,
+        string address,
+        string city,
+        string state,
+        string zip,
+        string phoneNumber,
+        string email
+    )
     {
-        return $"Name: {fName} {lName}\nCity: {cityName}\nState: {stateName}";
+        FirstName = firstName;
+        LastName = lastName;
+        Address = address;
+        City = city;
+        State = state;
+        Zip = zip;
+        PhoneNumber = phoneNumber;
+        Email = email;
     }
 }
