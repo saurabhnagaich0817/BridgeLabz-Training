@@ -361,4 +361,48 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
 - Real-world scenario modeling (automation, banking, scheduling, fitness, customer service)
 - Data structure and algorithm implementation for scalable, maintainable solutions
 
+### 3 February 2026 — Address Book (updated) & Robot Hazard Analyser (completed)
+🧩 **Topics of the Day**
+- **C# Collections** – List, interface-based design
+- **OOPs in C#** – Interfaces, abstraction, modular structure
+- **Address Book Application** – Menu-driven console project
+- **Robot Hazard Analyser** – Safety checks, custom exceptions, auditor logic
+
+✅ **Today’s Work**
+- Updated Address Book Project in `collections-csharp` (changes made on 3 Feb: bug fixes and small enhancements to contact management and validation)
+- Implemented full menu-driven Address Book application
+- Used OOPs concepts:
+  - Interfaces (`IAddressBook`, `IContact`, `IContactEntity`)
+  - Classes and abstraction
+- Used Collections:
+  - `List<Contact>` for storing contacts
+- Implemented core features:
+  - Add Contact
+  - Edit Contact
+  - Delete Contact
+  - Display Contacts
+- Added Robot Hazard Analyser project in `scenario-based/RobotHazardAnalyser`
+  - Implemented `RobotHazardAuditor` for scanning robot operations
+  - Added `RobotSafetyException` for safety rule violations
+  - Included a `Program.cs` CLI to run hazard audits
+- Maintained proper file structure and separation of concerns
+- Successfully built and ran both projects using .NET CLI
+
+🔁 **Previous Day Update (2 February 2026)**
+- Added JSON file handling in a folder-based, scenario-driven structure
+- Worked under `io-programming` branch
+- Implemented JSON read/write operations for data persistence
+- Organized files clearly according to I/O Programming concepts
+
+
+
+▶️ **What’s Next**
+- Enhance Address Book with file persistence (JSON)
+- Add exception handling and validations
+- Strengthen I/O Programming + Collections integration
+- Continue improving Git branching and commit practices
+
+
+
 ---
+ 
