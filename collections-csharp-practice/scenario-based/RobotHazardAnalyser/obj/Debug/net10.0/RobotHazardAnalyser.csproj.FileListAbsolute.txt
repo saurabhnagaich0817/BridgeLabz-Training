@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.sourcelink.json
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\bin\Debug\net10.0\RobotHazardAnalyser.exe
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\bin\Debug\net10.0\RobotHazardAnalyser.deps.json
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\bin\Debug\net10.0\RobotHazardAnalyser.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\bin\Debug\net10.0\RobotHazardAnalyser.dll
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\bin\Debug\net10.0\RobotHazardAnalyser.pdb
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.dll
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\refint\RobotHazardAnalyser.dll
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.pdb
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\RobotHazardAnalyser.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\collections-csharp-practice\scenario-based\RobotHazardAnalyser\obj\Debug\net10.0\ref\RobotHazardAnalyser.dll

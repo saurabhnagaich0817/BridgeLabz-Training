@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "RobotHazardAnalyser/1.0.0": {
+        "runtime": {
+          "RobotHazardAnalyser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RobotHazardAnalyser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
