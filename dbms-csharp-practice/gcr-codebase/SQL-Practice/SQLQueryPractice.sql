@@ -1,6 +1,6 @@
--- ============================================
+
 -- DATABASE CREATION
--- ============================================
+
 
 CREATE DATABASE PracticeDB;
 GO
@@ -8,10 +8,8 @@ GO
 USE PracticeDB;
 GO
 
--- ============================================
--- DDL + DML + DQL PRACTICE
--- ============================================
 
+-- DDL + DML + DQL PRACTICE
 CREATE TABLE Students(
     StudentID INT PRIMARY KEY,
     Name VARCHAR(50),
@@ -54,9 +52,9 @@ WHERE StudentID=3;
 
 SELECT * FROM Students;
 
--- ============================================
+
 -- CREATE SECOND TABLE (PRIMARY KEY)
--- ============================================
+
 
 CREATE TABLE Department(
     DeptID INT PRIMARY KEY,
@@ -70,9 +68,9 @@ INSERT INTO Department VALUES
 
 SELECT * FROM Department;
 
--- ============================================
+
 -- FOREIGN KEY TABLE
--- ============================================
+
 
 CREATE TABLE StudentDetails(
     StudentID INT PRIMARY KEY,
@@ -88,9 +86,9 @@ INSERT INTO StudentDetails VALUES
 
 SELECT * FROM StudentDetails;
 
--- ============================================
+
 -- JOINS PRACTICE
--- ============================================
+
 
 -- INNER JOIN
 SELECT StudentDetails.Name, Department.DeptName
@@ -116,15 +114,15 @@ FROM StudentDetails
 FULL JOIN Department
 ON StudentDetails.DeptID = Department.DeptID;
 
--- ============================================
+=
 -- TRUNCATE TABLE
--- ============================================
+
 
 TRUNCATE TABLE Students;
 
--- ============================================
+
 -- TCL COMMANDS
--- ============================================
+
 
 BEGIN TRANSACTION;
 
@@ -146,9 +144,9 @@ COMMIT;
 
 SELECT * FROM StudentDetails;
 
--- ============================================
+
 -- DCL COMMANDS
--- ============================================
+
 
 CREATE LOGIN testuser
 WITH PASSWORD='Test@123';
@@ -164,9 +162,8 @@ REVOKE INSERT
 ON StudentDetails
 FROM testuser;
 
--- ============================================
 -- NORMALIZATION PRACTICE
--- ============================================
+
 
 -- 1NF
 CREATE TABLE Student1NF(
