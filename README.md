@@ -393,14 +393,117 @@ Welcome to my BridgeLabz training repository. This log tracks my daily progress,
 - Worked under `io-programming` branch
 - Implemented JSON read/write operations for data persistence
 - Organized files clearly according to I/O Programming concepts
-
+ 
 
 
 ▶️ **What’s Next**
 - Enhance Address Book with file persistence (JSON)
+ 
+---
+
+### 10–14 February 2026 — Hospital Management (work completed)
+- **Project:** HealthClinicConsoleApp (`scenario-based/HealthClinicConsoleApp`)
+- **Work done:** Continued development and testing of the Hospital Management system: appointment, billing, doctor, and patient modules. Implemented/updated DAOs, models, menus, and service logic to improve CRUD flows and user interaction.
+
+### 15–18 February 2026 — Address Book (started 15 Feb; work through today)
+-Address Book System (ADO.NET Project)
+
+A console-based application developed using C# and ADO.NET with SQL Server as backend.
+This project follows layered architecture (Model, Repository, Service) and performs complete CRUD and analytical operations on contacts.
+
+Features
+
+Add New Contact
+
+Update Existing Contact
+
+Delete Contact
+
+View All Contacts
+
+Search Contact by City
+
+Search Contact by State
+
+Sort Contacts by Name
+
+Sort Contacts by City
+
+Sort Contacts by State
+
+Count Contacts by City
+
+Count Contacts by State
+
+Concepts Used
+
+C# OOP Concepts
+
+ADO.NET (SqlConnection, SqlCommand, SqlDataReader)
+
+Stored Procedures
+
+Parameterized Queries
+
+Exception Handling
+
+Menu Driven Program
+
+Layered Architecture
+
+Folder Structure
+AddressBook
+│
+├── Models
+│   └── Contact.cs
+│
+├── Data
+│   └── DbConnection.cs
+│
+├── Repository
+│   └── ContactRepository.cs
+│
+├── Services
+│   └── ContactService.cs
+│
+└── Program.cs
+
+Database Tables
+
+Contacts Table
+
+ContactId (INT, Primary Key)
+
+Name (VARCHAR)
+
+PhoneNumber (VARCHAR)
+
+Email (VARCHAR)
+
+Address (VARCHAR)
+
+City (VARCHAR)
+
+State (VARCHAR)
+
+Learning Outcome
+
+Understood real-time database connectivity using ADO.NET
+
+Learned stored procedure based operations
+
+Improved understanding of layered architecture
+
+Gained confidence in building backend console applications
+
+*Updated on 18 February 2026.*
 - Add exception handling and validations
 - Strengthen I/O Programming + Collections integration
 - Continue improving Git branching and commit practices
+
+
+
+
 
 
 
