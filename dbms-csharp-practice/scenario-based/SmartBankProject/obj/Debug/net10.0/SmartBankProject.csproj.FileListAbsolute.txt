@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.sourcelink.json
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\bin\Debug\net10.0\SmartBankProject.exe
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\bin\Debug\net10.0\SmartBankProject.deps.json
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\bin\Debug\net10.0\SmartBankProject.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\bin\Debug\net10.0\SmartBankProject.dll
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\bin\Debug\net10.0\SmartBankProject.pdb
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.dll
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\refint\SmartBankProject.dll
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.pdb
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\SmartBankProject.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\dbms-csharp-practice\scenario-based\SmartBankProject\obj\Debug\net10.0\ref\SmartBankProject.dll
