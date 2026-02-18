@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\bin\Debug\net10.0\AddressBookSystem.exe
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\bin\Debug\net10.0\AddressBookSystem.deps.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\bin\Debug\net10.0\AddressBookSystem.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\bin\Debug\net10.0\AddressBookSystem.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\bin\Debug\net10.0\AddressBookSystem.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.sourcelink.json
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\refint\AddressBookSystem.dll
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.pdb
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\AddressBookSystem.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\I-O-programming-csharp-practice\scenario-based\AddressBookSystem\obj\Debug\net10.0\ref\AddressBookSystem.dll
