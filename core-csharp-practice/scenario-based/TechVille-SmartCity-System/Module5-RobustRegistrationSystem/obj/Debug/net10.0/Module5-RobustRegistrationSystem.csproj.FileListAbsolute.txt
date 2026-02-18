@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\bin\Debug\net10.0\Module5-RobustRegistrationSystem.exe
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\bin\Debug\net10.0\Module5-RobustRegistrationSystem.deps.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\bin\Debug\net10.0\Module5-RobustRegistrationSystem.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\bin\Debug\net10.0\Module5-RobustRegistrationSystem.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\bin\Debug\net10.0\Module5-RobustRegistrationSystem.pdb
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.sourcelink.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\refint\Module5-RobustRegistrationSystem.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.pdb
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\Module5-RobustRegistrationSystem.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module5-RobustRegistrationSystem\obj\Debug\net10.0\ref\Module5-RobustRegistrationSystem.dll
