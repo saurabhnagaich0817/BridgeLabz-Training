@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\bin\Debug\net10.0\Module1-CitizenRegistration.exe
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\bin\Debug\net10.0\Module1-CitizenRegistration.deps.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\bin\Debug\net10.0\Module1-CitizenRegistration.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\bin\Debug\net10.0\Module1-CitizenRegistration.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\bin\Debug\net10.0\Module1-CitizenRegistration.pdb
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.sourcelink.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\refint\Module1-CitizenRegistration.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.pdb
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\Module1-CitizenRegistration.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module1-CitizenRegistration\obj\Debug\net10.0\ref\Module1-CitizenRegistration.dll

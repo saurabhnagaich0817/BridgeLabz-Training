@@ -1,0 +1,15 @@
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.AssemblyInfoInputs.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.AssemblyInfo.cs
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.csproj.CoreCompileInputs.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.sourcelink.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\bin\Debug\net10.0\Module2-ServiceEligibilityChecker.exe
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\bin\Debug\net10.0\Module2-ServiceEligibilityChecker.deps.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\bin\Debug\net10.0\Module2-ServiceEligibilityChecker.runtimeconfig.json
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\bin\Debug\net10.0\Module2-ServiceEligibilityChecker.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\bin\Debug\net10.0\Module2-ServiceEligibilityChecker.pdb
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\refint\Module2-ServiceEligibilityChecker.dll
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.pdb
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\Module2-ServiceEligibilityChecker.genruntimeconfig.cache
+C:\Users\user\BridgeLabz-Training\core-csharp-practice\scenario-based\TechVille-SmartCity-System\Module2-ServiceEligibilityChecker\obj\Debug\net10.0\ref\Module2-ServiceEligibilityChecker.dll
